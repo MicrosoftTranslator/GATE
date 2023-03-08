@@ -1,0 +1,1886 @@
+
+Source length distribution
+
+Number of tokens <11: 719
+Number of tokens <21: 801
+Number of tokens <31: 233
+Number of tokens <41: 78
+Number of tokens <51: 29
+Number of tokens >50: 9
+
+
+Keyword entity count distribution (all)
+
+1: 1064
+2: 603
+3: 154
+4: 39
+5: 5
+6: 4
+
+
+Keyword entity count distribution (distinct clusters)
+
+1: 1501
+2: 329
+3: 32
+4: 6
+6: 1
+
+
+Label distribution
+
+
+Semantic type
+  PROF: 1168
+  NAT: 118
+  REL: 25
+  FAM: 327
+  OTH: 580
+  NHUM: 2
+
+Grammatical role
+  SUBJ: 1638
+  SCMP: 501
+  RSCMP: 134
+  DOBJ: 181
+  IOBJ: 136
+  OPRP: 250
+  POSC: 80
+
+Agreement features
+  PLUR: 991
+  VOC: 3
+
+Adjective-related
+  APRD: 82
+  AATR: 293
+  PPA: 361
+  ANAN: 97
+
+Verbs
+  IMPR: 14
+
+Pronouns
+  POSS: 80
+  DROP: 156
+
+Special
+  DIFF: 31
+  INDF: 2
+  QUES: 124
+  FRAG: 49
+  DFCL: 136
+  N-A: 0
+  HEAD: 17
+
+
+Extra labels
+
+
+
+Keyword distribution for 1803 unique keywords
+
+I: 82
+you: 55
+friend: 41
+child: 40
+they: 30
+teacher: 23
+children: 23
+we: 21
+friends: 21
+cousin: 20
+supervisor: 16
+doctor: 16
+them: 15
+students: 14
+neighbor: 14
+cousins: 13
+us: 12
+boss: 12
+workers: 11
+who: 11
+kids: 11
+driver: 11
+teachers: 10
+winner: 9
+players: 9
+neighbors: 9
+director: 9
+student: 8
+patient: 8
+guests: 8
+(you): 8
+writer: 7
+tired: 7
+sure: 7
+seller: 7
+refugees: 7
+player: 7
+nurse: 7
+manager: 7
+employees: 7
+defendant: 7
+cook: 7
+citizens: 7
+authors: 7
+trainer: 6
+patients: 6
+passengers: 6
+owners: 6
+owner: 6
+members: 6
+lawyer: 6
+kid: 6
+instructor: 6
+host: 6
+farmers: 6
+employer: 6
+customers: 6
+captain: 6
+yourself: 5
+users: 5
+thief: 5
+supplier: 5
+professor: 5
+producer: 5
+minister: 5
+me: 5
+fans: 5
+disappointed: 5
+client: 5
+candidates: 5
+arrested: 5
+(I): 5
+traveler: 4
+some: 4
+sitting: 4
+siblings: 4
+president: 4
+partner: 4
+lazy: 4
+lawyers: 4
+hungry: 4
+happy: 4
+exhausted: 4
+engineer: 4
+employee: 4
+doctors: 4
+dentist: 4
+convinced: 4
+colleagues: 4
+caregiver: 4
+affected: 4
+actors: 4
+(She/he): 4
+worried: 3
+worker: 3
+witness: 3
+widow: 3
+welcome: 3
+waiters: 3
+very happy: 3
+very handsome: 3
+those [who]: 3
+surgeon: 3
+supporters: 3
+some [patients]: 3
+some [members]: 3
+some [colleagues]: 3
+scientists: 3
+scientist: 3
+russian: 3
+researcher: 3
+recipient: 3
+reader: 3
+psychologist: 3
+producers: 3
+photographer: 3
+pedestrians: 3
+our [citizens]: 3
+opponent: 3
+oncologist: 3
+old [friend]: 3
+motivated: 3
+ministers: 3
+mayor: 3
+librarian: 3
+judges: 3
+it: 3
+inspector: 3
+imprisoned: 3
+historian: 3
+hairdresser: 3
+governor: 3
+good: 3
+forced: 3
+exposed: 3
+experts: 3
+expert: 3
+designers: 3
+customer: 3
+consumers: 3
+concerned: 3
+committed: 3
+commissioner: 3
+comfortable: 3
+coach: 3
+co-worker: 3
+citizen: 3
+candidate: 3
+biologist: 3
+author: 3
+all: 3
+administrator: 3
+young [inventor]: 2
+wonderful: 2
+waiter: 2
+volunteers: 2
+violinist: 2
+vet: 2
+very worried: 2
+very grateful: 2
+very friendly: 2
+vendor: 2
+vegetarian: 2
+user: 2
+upset: 2
+tutor: 2
+tried: 2
+those: 2
+this [salesperson]: 2
+thieves: 2
+these [executives]: 2
+these [children]: 2
+themselves: 2
+tenants: 2
+teenager: 2
+teammate: 2
+tall: 2
+swimmer: 2
+suspect: 2
+surrounded: 2
+surprised: 2
+spy: 2
+speaker: 2
+slow: 2
+skiers: 2
+sick: 2
+sibling: 2
+sergeant: 2
+senators: 2
+satisfied: 2
+sailor: 2
+runner: 2
+rich [children]: 2
+respondents: 2
+researchers: 2
+representative: 2
+reporter: 2
+quietly: 2
+quiet: 2
+protesters: 2
+prisoner: 2
+politicians: 2
+poles: 2
+plumber: 2
+pilot: 2
+pescatarian: 2
+perpetrators: 2
+passionate: 2
+passenger: 2
+participants: 2
+parents: 2
+paramedic: 2
+our fellow [citizens]: 2
+our [neighbor]: 2
+our [grandchildren]: 2
+our [founder]: 2
+our [competitors]: 2
+our [colleagues]: 2
+ophthalmologist: 2
+operators: 2
+operator: 2
+one: 2
+officials: 2
+officer: 2
+nervous: 2
+muslim: 2
+musicians: 2
+mormons: 2
+moderator: 2
+mentor: 2
+many [parents]: 2
+many [friends]: 2
+lover: 2
+losers: 2
+liar: 2
+lessor: 2
+lessee: 2
+lender: 2
+judge: 2
+journalists: 2
+investigator: 2
+introvert: 2
+interviewer: 2
+interested: 2
+inspectors: 2
+insecure: 2
+injured: 2
+hunter: 2
+hostage [negotiator]: 2
+highly recommended: 2
+help [you]: 2
+healthcare [provider]: 2
+hardworking: 2
+gypsy: 2
+guest: 2
+guard: 2
+great: 2
+grandchildren: 2
+frustrated: 2
+founder: 2
+follower: 2
+fired: 2
+filmmaker: 2
+fast: 2
+fabulous: 2
+expert [advisor]: 2
+excited: 2
+entrepreneur: 2
+engineers: 2
+engaged: 2
+employers: 2
+elected: 2
+each other: 2
+each one of [us]: 2
+drivers: 2
+dressed: 2
+dizzy: 2
+divers: 2
+distressed: 2
+dietitian: 2
+detective: 2
+designer: 2
+deputies: 2
+debtor: 2
+dean: 2
+dancers: 2
+criminals: 2
+creative: 2
+counselor: 2
+cooks: 2
+contractor: 2
+consumer: 2
+consultant: 2
+confused: 2
+companions: 2
+community [producers]: 2
+colombian: 2
+college [student]: 2
+coaches: 2
+civil [servant]: 2
+chief [negotiator]: 2
+cautious: 2
+cashier: 2
+buyer: 2
+borrower: 2
+best [friends]: 2
+best: 2
+beneficiaries: 2
+baker: 2
+author's: 2
+auditor: 2
+attorney: 2
+attentive: 2
+attendees: 2
+athletic [trainer]: 2
+athletic [child]: 2
+astronaut: 2
+asleep: 2
+ashamed: 2
+architects: 2
+angry: 2
+ambassadors: 2
+adviser: 2
+adolescent: 2
+accountant: 2
+[vice president]: 2
+[the one]: 2
+[political scientist]: 2
+[letter carrier]: 2
+[friend] of mine: 2
+(she/he): 2
+(he/she): 2
+zookeeper: 1
+yourselves: 1
+your [colleague]: 1
+youngest olimpic [champion]: 1
+younger married [sibling]: 1
+young [sculptor]: 1
+young [recepcionist]: 1
+young [journalist]: 1
+young [dancer]: 1
+young [chemist]: 1
+young [adults]: 1
+young [actress]: 1
+You: 1
+wrongly interrupted: 1
+writers: 1
+worthy [senator]: 1
+world record [holder]: 1
+workshop [participants]: 1
+woodcutter: 1
+wonderful renal [dietitian]: 1
+wonderful [cousin]: 1
+wizard: 1
+with emotion: 1
+with [yours]: 1
+winning [rival]: 1
+winners: 1
+willing: 1
+will pick [you] up: 1
+widowed [spouse]: 1
+whose [owners]: 1
+white miniature [dog]: 1
+which [recipients]: 1
+what: 1
+well-dressed: 1
+weaver's: 1
+weapons [experts]: 1
+wealthy [lawyer]: 1
+we [citizens]: 1
+watch: 1
+warned: 1
+wage-earner: 1
+visionary [leader]: 1
+visionary: 1
+vietnamese (cook): 1
+vicepresident: 1
+veterinary [surgeon]: 1
+veteran conservative [politician]: 1
+very well travelled [professional]: 1
+very upset: 1
+very tough: 1
+very thorough: 1
+very thin: 1
+very talkative: 1
+very surprised: 1
+very strict: 1
+very sleepy: 1
+very satisfied: 1
+very quiet: 1
+very proud: 1
+very polite: 1
+very nice: 1
+very neat: 1
+very many [members]: 1
+very low: 1
+very liked: 1
+very judicious: 1
+very introverted: 1
+very interested: 1
+very good cook: 1
+very good: 1
+very fat: 1
+very extroverted: 1
+very excited: 1
+very encouraged: 1
+very descreet: 1
+very busy: 1
+very anxious: 1
+very aggressive: 1
+versatile [executor]: 1
+vegan: 1
+valued [passenger]: 1
+vaccinated: 1
+used: 1
+us [salior]: 1
+upstairs [neighbor]: 1
+unknown argentinian [writer]: 1
+university [professor]: 1
+unique [vendors]: 1
+unique [designer]: 1
+unique: 1
+union's [citizens]: 1
+unguarded [thug]: 1
+unelected [judges]: 1
+undertaker: 1
+understanding: 1
+under the weather: 1
+under arrest: 1
+unaffected: 1
+umpire: 1
+two well-known danish [architects]: 1
+two other [siblings]: 1
+two most important [players]: 1
+two best [friends]: 1
+two [witnesses]: 1
+two [teachers]: 1
+two [guitarists]: 1
+two [authors]: 1
+tutors: 1
+tunisian [prime minister]: 1
+trustee: 1
+trendsetters: 1
+treating [oncologist]: 1
+treated: 1
+traveling [guests]: 1
+travelers: 1
+traumatized: 1
+transmission system [operators]: 1
+transferred: 1
+traitor: 1
+trained [farmers]: 1
+trained: 1
+touchy: 1
+totally shocked: 1
+too many [cousins]: 1
+too many [cooks]: 1
+too kind: 1
+too keen: 1
+too fast: 1
+too confident: 1
+too close together: 1
+too busy: 1
+together: 1
+to themselves: 1
+to the same [cardiologist]: 1
+to the new financial [director]: 1
+to the [reader]: 1
+to the [ophthalmologist]: 1
+to the [greengrocer]: 1
+to the [friend]: 1
+to a [librarian]: 1
+to [us]: 1
+timid [disciple]: 1
+three surviving [terrorists]: 1
+three [drivers]: 1
+three [directors]: 1
+thoughtful: 1
+those who follow: 1
+those two tall: 1
+those [kids]: 1
+those [journalists]: 1
+those [farmers]: 1
+those [employees]: 1
+those [buyers]: 1
+this year's winner: 1
+this truly popular paraguayan [poet]: 1
+this tired: 1
+this swiss [speaker]: 1
+this reliability [engineer]: 1
+this mysterious charming [musician]: 1
+this motorcycle [maniac]: 1
+this lazy [young one]: 1
+this handsome [artist]: 1
+this fully animated: 1
+this cuban [boxer]: 1
+this cosmetic [dermatologist]: 1
+this brilliant [scientist]: 1
+this attractive calm [player]: 1
+this [writer]: 1
+this [winner]: 1
+this [veterinarian]: 1
+this [vendor]: 1
+this [user]: 1
+this [traveler]: 1
+this [spokesperson]: 1
+this [psychologist]: 1
+this [president]: 1
+this [kid]: 1
+this [intruder]: 1
+this [friend]: 1
+this [dean]: 1
+this [colleague]: 1
+this [candidate]: 1
+this [bolivian]: 1
+this [biologist]: 1
+this [author]: 1
+this [assailant]: 1
+this: 1
+thinker: 1
+They: 1
+theses [workers]: 1
+theses [lawyers]: 1
+these two [friends]: 1
+these tourism [operators]: 1
+these terminally ill [patients]: 1
+these recent [graduates]: 1
+these five [prisoners]: 1
+these [workers]: 1
+these [users]: 1
+these [teachers]: 1
+these [scientists]: 1
+these [radio listeners]: 1
+these [programmers]: 1
+these [prisoners]: 1
+these [passengers]: 1
+these [neighbors]: 1
+these [mentors]: 1
+these [members]: 1
+these [italians]: 1
+these [farm workers]: 1
+these [experts]: 1
+these [employers]: 1
+these [dancers]: 1
+these [composers]: 1
+these [beggars]: 1
+these [actors]: 1
+therapist: 1
+theologian: 1
+their support: 1
+their: 1
+that weird [lawyer]: 1
+that clumsy [kid]: 1
+that clever [blind person]: 1
+that [random person]: 1
+that [kid]: 1
+that [judge]: 1
+that [child] of yours: 1
+that [brute]: 1
+that [baker] of yours: 1
+thankful: 1
+testers: 1
+terrorists: 1
+terrible [investigator]: 1
+tenant: 1
+team [representative]: 1
+teacher's: 1
+taxpayer: 1
+talented musician [friend]: 1
+talented [musicians]: 1
+talented: 1
+taken: 1
+taiwanese: 1
+tailor: 1
+system [vendor]: 1
+swimmers: 1
+swift [detective]: 1
+sweepers: 1
+suspects: 1
+sure ready: 1
+support [coordinator]: 1
+supervisors: 1
+sued: 1
+sudmissive [servant]: 1
+successful [entrepreneurs]: 1
+successful [entrepreneur]: 1
+successful [candidate]: 1
+successful [actor]: 1
+subscriber: 1
+subordinate: 1
+subject to temptation: 1
+subject: 1
+stylists: 1
+stupid [tourist]: 1
+studio [executives]: 1
+strict [teacher]: 1
+strict [boss]: 1
+stressed: 1
+strangers: 1
+strangely moved: 1
+storyteller: 1
+store [clerk]: 1
+stenographer: 1
+staying: 1
+star [player]: 1
+star: 1
+stakeholders: 1
+staggered: 1
+sponsor: 1
+spirited [partner]: 1
+speech-language [pathologists]: 1
+spectator: 1
+specific: 1
+specializing: 1
+specialized [therapist]: 1
+specialist: 1
+spanish [karate athlete]: 1
+spanish [banker]: 1
+sound: 1
+songwriter: 1
+some of [us]: 1
+some of [them]: 1
+some laid-off [employees]: 1
+some [teachers]: 1
+some [people]: 1
+some [ministers]: 1
+some [listeners]: 1
+some [kid]: 1
+some [friends]: 1
+some [elderly people]: 1
+some [detainees]: 1
+some [competitors]: 1
+somali [producers]: 1
+somali [president]'s: 1
+sole [winner]: 1
+software [engineer]: 1
+socialist: 1
+social [worker]: 1
+social [partners]: 1
+so willing: 1
+so tired: 1
+so sure of [yourself]: 1
+so smug: 1
+so many [foreigners]: 1
+so giddy: 1
+so extrovert: 1
+so distressed: 1
+so desperate: 1
+snarling siberian [dog]: 1
+small and large [producers]: 1
+slut: 1
+slowly: 1
+slower: 1
+slovak [producer]: 1
+sleeping: 1
+skillful [player]: 1
+skillful [diver]: 1
+skier: 1
+skateboarder: 1
+sits: 1
+sinners: 1
+single [travelers]: 1
+singers: 1
+simple [carpenter]: 1
+shopkeeper: 1
+shining: 1
+sheriff: 1
+shameless: 1
+shaman: 1
+severaly punished: 1
+several young [olympians]: 1
+several nicaraguan [writers]: 1
+seven [pedagogues]: 1
+service [coordinator]: 1
+servants: 1
+servant: 1
+sentenced: 1
+senior [officials]: 1
+sender: 1
+senator's: 1
+sellers: 1
+self-employed [driver]: 1
+self-absorbed: 1
+security [researchers] identified: 1
+secretary: 1
+seated [passengers]: 1
+sculptress: 1
+sculptor: 1
+scout [friend]: 1
+scottish [farmers]: 1
+school's 504 [coordinator]: 1
+school [employee]: 1
+scholarship [student]: 1
+schizo: 1
+saxophonist: 1
+satisfied [passengers]: 1
+same heavenly [messenger]: 1
+same community [producers]: 1
+salvadorian: 1
+salvadoran [president]: 1
+salvadoran [model]: 1
+salvadoran: 1
+salesperson: 1
+said [representative]: 1
+safe: 1
+russian [ambassador]: 1
+romanians: 1
+rich [kid]: 1
+rich: 1
+retiree: 1
+retired: 1
+restless: 1
+respiratory [therapist]: 1
+respective [artist]: 1
+respectful: 1
+resourceful [host]: 1
+reserve assistant [referee]: 1
+required: 1
+representatives: 1
+repairperson: 1
+renowned [ecologist]: 1
+remember [them]: 1
+reliable [hairdresser]: 1
+rehabilitator: 1
+registered [speaker]: 1
+referees: 1
+referee: 1
+rector: 1
+recommended: 1
+recipients: 1
+really professional [actor]: 1
+really kind: 1
+ready: 1
+rapporteur: 1
+railway [worker]: 1
+railway [employees]: 1
+radiologist: 1
+radar/radio [operator]: 1
+qualified [painters]: 1
+qualified: 1
+put: 1
+pure [devotee]: 1
+purchaser: 1
+publication [authors]: 1
+public: 1
+psychologists: 1
+provider: 1
+proud: 1
+protected: 1
+prospective [supervisor]: 1
+prosecutor: 1
+prosecuted: 1
+prominent climate [economist]: 1
+project [manager]: 1
+program [director]: 1
+professors: 1
+professor's: 1
+professional [translators]: 1
+professional [photographer]: 1
+production [coordinator]: 1
+private [investors]: 1
+private [detective]: 1
+prisoners: 1
+principals: 1
+principal [surgeon]: 1
+principal [investigator]: 1
+principal: 1
+priest: 1
+previous [speaker]: 1
+previous [colleague]: 1
+pretty desperate: 1
+presidents: 1
+president/ceo: 1
+presenter: 1
+present [operators]: 1
+preparers: 1
+premature [baby]: 1
+predisposed: 1
+praised: 1
+praise: 1
+portuguese [veterinary] surgeons: 1
+porter: 1
+poor african [entrepreneurs]: 1
+poor [driver]: 1
+poor [child]: 1
+politician: 1
+polish [dancers]: 1
+police [officer]: 1
+poets: 1
+poet: 1
+pleasantly surprised: 1
+plastic [surgeon]: 1
+plasterer: 1
+planter: 1
+plant [geneticist]: 1
+planner: 1
+plaintiff: 1
+pitcher: 1
+pilgrims: 1
+picked: 1
+piano [teacher]: 1
+pianist: 1
+physicists: 1
+physicians: 1
+physician: 1
+physical [trainer]: 1
+photographers: 1
+philosophers: 1
+philanthropist: 1
+phd [candidate]: 1
+pharmacists: 1
+pharmacist: 1
+persuaded: 1
+permissive [teacher]: 1
+perfect [unknown]: 1
+perceptive [explorer]: 1
+pediatric [ophthalmologist]: 1
+peasants: 1
+peasant: 1
+pathologist: 1
+partners: 1
+particular [scout]: 1
+participant: 1
+parliamentarians: 1
+parishioners: 1
+panamian [writer]: 1
+paleontologist: 1
+pakistani [liberal]: 1
+painters: 1
+painter: 1
+paid: 1
+package [controller]: 1
+owner's: 1
+overwhelmed: 1
+overtired: 1
+overslept: 1
+overcrowded: 1
+overbearing: 1
+outstanding environmental [pioneers]: 1
+ours: 1
+our wedding [planner]: 1
+our usual sales [agent]: 1
+our spanish [friends]: 1
+our sound [engineer]: 1
+our software [engineers]: 1
+our social [partners] themselves: 1
+our repair [technician]: 1
+our professional [photographer]: 1
+our prime [suspect]: 1
+our portuguese [colleagues]: 1
+our pediatric [dentist]: 1
+our new program [director]: 1
+our moving [expert]: 1
+our most important [ally]: 1
+our modest [friend]: 1
+our licensed [therapists]: 1
+our injured [neighbor]: 1
+our graphic [designer]: 1
+our german [friends]: 1
+our experienced sushi [chefs]: 1
+our event [managers]: 1
+our esteemed [planners]: 1
+our daring [explorer]: 1
+our ad [partners]: 1
+our [winemaker]: 1
+our [waiter]: 1
+our [surgeons]: 1
+our [supplier]: 1
+our [sponsors]: 1
+our [researcher]: 1
+our [president]: 1
+our [philosopher]: 1
+our [parliamentarians]: 1
+our [nominee]: 1
+our [negotiators]: 1
+our [leaders]: 1
+our [hero]: 1
+our [founders]: 1
+our [fortune teller]: 1
+our [fellow citizen]: 1
+our [farmers]: 1
+our [experts]: 1
+our [expert]: 1
+our [engineers]: 1
+our [employees]: 1
+our [drivers]: 1
+our [distributors]: 1
+our [designers]: 1
+our [dancer]: 1
+our [customers]: 1
+our [consultants]: 1
+our [children]: 1
+our [chef]: 1
+our [candidates]: 1
+our [buyers]: 1
+our [bakers]: 1
+our [athletes] all: 1
+our 52-year-old truck [driver]: 1
+otolaryngologist: 1
+other jamaican [experts]: 1
+other [providers]: 1
+other [kids]: 1
+other [inventors]: 1
+other [guests]: 1
+other [employees]: 1
+other [dreamers]: 1
+other [colleagues]: 1
+other [administrators]: 1
+other: 1
+osteopath: 1
+orphans: 1
+original [authors]: 1
+organizers: 1
+organized: 1
+organisers: 1
+organic [farmer]: 1
+opposition labor [deputy]: 1
+only one [injured]: 1
+only [one]: 1
+one taiwanese [producer]: 1
+one of the most famous [sculptors]: 1
+one of the most [renowned]: 1
+one of the country's most wanted [fugitives]: 1
+one of the [deputies]: 1
+one of the [climbers]: 1
+one of our banking [specialist]: 1
+one of [you]: 1
+one million [children]: 1
+one [speaker]: 1
+one [seamstress] allergic: 1
+one [runner]: 1
+one [representative]: 1
+one [producer]: 1
+one [mayor]: 1
+one [manager]: 1
+on heat: 1
+oldest single [sibling]: 1
+older [child]: 1
+old [neighbors]: 1
+official: 1
+officers: 1
+office [workers]: 1
+offender: 1
+offended: 1
+of the opposition [leader]: 1
+of the last [candidate]: 1
+of the fired [officer]: 1
+of the canadian [missionary] missing: 1
+of the austrian [jeweler] and [enameller]: 1
+of the [supervisor]: 1
+of the [doctor]: 1
+of the [consumers]: 1
+of the [boss]: 1
+of new inpatient admission [coordinator]: 1
+ocean [photographer]: 1
+obsessed [fan]: 1
+observer: 1
+nutritionist [friend]: 1
+not happy: 1
+not all [citizens]: 1
+not [employed]: 1
+norwegians: 1
+norwegian [neighbors]: 1
+norwegian [athlete]: 1
+northerners: 1
+none of [them]: 1
+non-believer: 1
+non-attached [members]: 1
+nominee: 1
+no senior [official]: 1
+no israeli [reporter]: 1
+no [teacher]: 1
+no [student]: 1
+no [provider]: 1
+no [president]: 1
+no [child]: 1
+no [cashier]: 1
+night [watchman]: 1
+nigerian [regulator]: 1
+nicest [people]: 1
+nice [nurse]: 1
+nice [cousins]: 1
+nice: 1
+newly hired [supervisor]: 1
+new [soldiers]: 1
+new [radiologist]: 1
+new [nurse]: 1
+new [neighbors]: 1
+new [neighbor]: 1
+new [members]: 1
+nervous [flight attendant]: 1
+neighborhood's [gossiper]: 1
+neighbor's: 1
+nearest [sibling]: 1
+near-graduates: 1
+naughty [child]: 1
+natives: 1
+national [judge]: 1
+naive [farmer] tricked: 1
+my [friend]: 1
+mutual [students]: 1
+musician: 1
+music [teacher]: 1
+murderers: 1
+murderer: 1
+murdered [friend]: 1
+murdered: 1
+multi-generational [new yorker]: 1
+mountaineers: 1
+mountaineer: 1
+most senior [secretary]: 1
+most radical pro-choice [supporters]: 1
+most decorated [champion]: 1
+most dangerous [criminals]: 1
+most [users]: 1
+most [reluctant]: 1
+most [important]: 1
+mortgagor: 1
+mortgagee: 1
+morning show [commentator]: 1
+more than happy: 1
+more proud: 1
+more productive [workers]: 1
+more passionate: 1
+more of an extrovert: 1
+more inactive: 1
+more effective collaborators: 1
+more attentive: 1
+more affectionate: 1
+more [climbers]: 1
+monkey [tamer]: 1
+moker: 1
+mohammedan: 1
+modest [senator]: 1
+mocker: 1
+minor [children]: 1
+millionaires: 1
+mexican [painter]: 1
+meticulous: 1
+messenger: 1
+merciful: 1
+merchants: 1
+medical [student]: 1
+mediator: 1
+mean: 1
+mayor's: 1
+mathematician: 1
+matchmaker: 1
+master: 1
+married: 1
+marketing [manager]: 1
+market [caretaker]: 1
+marked: 1
+marine [biologist]: 1
+many young [workers]: 1
+many other [colleagues]: 1
+many of our new [friends]: 1
+many of my [colleagues]: 1
+many of [us]: 1
+many norwegian [workers]: 1
+many many [inventors]: 1
+many law-abiding [citizens]: 1
+many chinese [believers]: 1
+many [teachers]: 1
+many [scholars]: 1
+many [proponents]: 1
+many [opponents]: 1
+many [members of congress]: 1
+many [french people]: 1
+many [foreigners]: 1
+many [farmers]: 1
+many [brokers]: 1
+many [austrian]: 1
+many [amateurs]: 1
+many: 1
+managers: 1
+malicious: 1
+main [suspect]: 1
+mailperson: 1
+maids: 1
+magicians: 1
+mad [scientist]: 1
+mad: 1
+lucky: 1
+loving [couple]: 1
+lovely [owners]: 1
+lovely [friend]: 1
+lovely: 1
+loved: 1
+lot of nosy [neighbors]: 1
+lost: 1
+loser: 1
+looked after: 1
+long-distance [driver]: 1
+local [partners]: 1
+local [elected representatives]: 1
+little messy: 1
+little bit shaken: 1
+little bit lonely: 1
+little [genius]: 1
+listener: 1
+liable: 1
+level 3 [volunteer]: 1
+lethargic [kids]: 1
+legislator: 1
+lean [workers]: 1
+leading [researcher]: 1
+leader: 1
+lead [chefs]: 1
+lazy [tenant]: 1
+last [speaker]: 1
+last [child]: 1
+korean: 1
+known [felon]: 1
+knowledgeable [librarians]: 1
+knowledgeable: 1
+king: 1
+kidnappers: 1
+kidnapper: 1
+just another [sick person]: 1
+jumpscared: 1
+joyful [supervisor]: 1
+journalist: 1
+joggers: 1
+jewish [orphan]: 1
+japanese [students]: 1
+japanese [researchers]: 1
+japanese [neighbor]: 1
+japanese [athlete]: 1
+japanese: 1
+janitor: 1
+jamaican [experts]: 1
+jamaican [dignitary]: 1
+italian [student]: 1
+italian [neighbors]: 1
+italian [neighbor]: 1
+italian [employers]: 1
+italian [architect]: 1
+italian: 1
+israeli [ambassador]: 1
+involved: 1
+invited: 1
+invisible [friend]: 1
+investorsdrunk: 1
+investors: 1
+investigators: 1
+intruders: 1
+intruder: 1
+intoxicated: 1
+interviewed: 1
+interns: 1
+international hungarian [journalist]: 1
+internal [refugees]: 1
+interactive speaking [friend]: 1
+installer: 1
+inspector's: 1
+innovator: 1
+innkeeper: 1
+inmates: 1
+injured [elderly person]: 1
+ingenious [painter]: 1
+informed value [adder]: 1
+informed: 1
+informant: 1
+independent [employees]: 1
+independent [creators]: 1
+independent [auditor]: 1
+incredible [gardener]: 1
+incompetent [doctor]: 1
+inclusive: 1
+in-house [cook]: 1
+in need: 1
+in love: 1
+in disguise: 1
+importer: 1
+immediate [supervisor]: 1
+ill-humored [sportsperson]: 1
+ignored: 1
+idiot: 1
+identified: 1
+ideal [partner]: 1
+hungry [traveler]: 1
+humiliated: 1
+humble [servant]: 1
+how many [passengers]: 1
+how many [glutons]: 1
+how many [children]: 1
+housekeeper: 1
+hosts: 1
+hostages: 1
+hospitalized: 1
+honourable [member]: 1
+honourable [deputies]: 1
+honored: 1
+honest [stateperson] accused: 1
+honest [entrepreneurs]: 1
+honest: 1
+honduran: 1
+hired: 1
+herbalist: 1
+hematologist: 1
+helpfull: 1
+helped: 1
+held: 1
+heavily equipped: 1
+healthy: 1
+health care [worker]: 1
+health [worker]: 1
+health [professional]: 1
+hawaiian [chef]: 1
+hard-working [copilot]: 1
+happy [workers]: 1
+handsome [neighbor]: 1
+handsome [model]: 1
+half sleep: 1
+haiti's [attorney] general: 1
+gynecologist: 1
+guru: 1
+guide: 1
+guards: 1
+guaranteed: 1
+group of [delegates]: 1
+grocer: 1
+greedy: 1
+greatest [botanist]: 1
+great gardener: 1
+great [reader]: 1
+great [mechanic]: 1
+great [guitarist]: 1
+great [friend]: 1
+great [figure skater]: 1
+grateful [helpers]: 1
+grateful: 1
+grandparents: 1
+grandkids: 1
+grandkid: 1
+grampier: 1
+graduates: 1
+grader: 1
+got: 1
+gorgeous: 1
+good [translator]: 1
+good [sibling]: 1
+good [friends]: 1
+good [friend]: 1
+good [editor]: 1
+good [child]: 1
+golf [instructor]: 1
+goddamn [horse owner]: 1
+goalkeeper: 1
+glassblowers: 1
+glad: 1
+gifted pianist: 1
+gifted [swimmer]: 1
+gifted: 1
+german far-right [deputy]: 1
+german: 1
+geographer: 1
+genius: 1
+gatekeeper: 1
+gastroenterologist: 1
+gardeners: 1
+gardener: 1
+garbage [collector]: 1
+gambler: 1
+gagged: 1
+future [presidents]: 1
+future [graduates]: 1
+fundamentalists: 1
+fugitive: 1
+frontier [worker]: 1
+from the cruel [master]: 1
+from one of our [smokers]: 1
+from [each] other: 1
+friendly [teller]: 1
+friendly: 1
+french [singer]: 1
+french [members]: 1
+french [citizens]: 1
+french: 1
+freckled [kid]: 1
+foreigners: 1
+foreigner: 1
+foreign [professor]: 1
+football [supporters]: 1
+following: 1
+focused: 1
+floridian: 1
+first [grandchild]: 1
+first [editor]: 1
+first [commander]: 1
+first: 1
+firefighter: 1
+fired [worker]: 1
+financial market [managers]: 1
+financial [consultant]: 1
+finance [director]: 1
+finalists: 1
+finalist: 1
+fighter: 1
+fifa general [coordinator]: 1
+few of [them]: 1
+few honourable [members]: 1
+few [librarians]: 1
+few [friends]: 1
+few: 1
+festival [coordinator]: 1
+fervent [christian]: 1
+fellow our [fellow citizens]: 1
+fellow [astronomer]: 1
+fellow: 1
+federal [fugitive]: 1
+featured: 1
+fearless: 1
+favorites: 1
+favorite: 1
+fatigued: 1
+farmer: 1
+farm [kid]: 1
+far away: 1
+fantastic and awesome [author]: 1
+fantastic [equestrian]: 1
+fanatics: 1
+fanatic: 1
+famous basketball [player]: 1
+famous [soccer player]: 1
+famous [meteorologist]: 1
+famous [influencer]: 1
+famous [acrobat]: 1
+famous: 1
+family [member]: 1
+familiarized: 1
+familiar: 1
+factory [workers]: 1
+fact [checkers]: 1
+fabulous [singer]: 1
+extremists: 1
+extremely rigorous: 1
+extraordinary [swimmer]: 1
+extraordinary [singers]: 1
+extraordinaire bilingual national park naturalist [guides]: 1
+exterminator: 1
+exposed [person]: 1
+experienced: 1
+expelled: 1
+exhausted [fugitive]: 1
+executive [producer]: 1
+executive: 1
+excellent [pianist]: 1
+examiner: 1
+evil [twin]: 1
+everyone: 1
+every intelligent [general]: 1
+every [citizen]: 1
+event [planner] extraordinaire: 1
+evaluator: 1
+europeans: 1
+european-latin american [organizers]: 1
+european rosé wine [producers]: 1
+european [representative]: 1
+european [friends]: 1
+european [citizens]: 1
+eternally grateful: 1
+epidemiologist: 1
+entomologist: 1
+entertaining: 1
+entertainer: 1
+enterprising: 1
+enrolled: 1
+enraged: 1
+enloquecida: 1
+english [teacher]: 1
+energetic [astronaut]: 1
+encouraged: 1
+employed: 1
+embroiled: 1
+embarrassed: 1
+eliminated: 1
+electoral [experts]: 1
+elected [candidate]: 1
+elderly [servant]: 1
+elderly [neighbor]: 1
+elderly [housekeeper]: 1
+elderly: 1
+educated [workers]: 1
+editors: 1
+ecuadorian [correspondent]: 1
+economists: 1
+economist: 1
+each of these [experts]: 1
+each adult [passenger]: 1
+each [young person]: 1
+each [salesperson]: 1
+each [participant]: 1
+each [auditee]: 1
+each: 1
+dutch [minister]: 1
+dutch [bosses]: 1
+drunk: 1
+dreamer: 1
+dread: 1
+downstairs [neighbor]: 1
+double vaccinated: 1
+donors: 1
+dominican [pilots]: 1
+diverse [learners]: 1
+distracted: 1
+distinguished [sculptor]: 1
+disqualified: 1
+dispossessed: 1
+displaced [refugees]: 1
+dispatcher: 1
+dismissed: 1
+disillusioned: 1
+disgruntled [employee]: 1
+discriminated: 1
+disconsolate [journalist]: 1
+disciples: 1
+disciple: 1
+disappeared: 1
+disabled [runner]: 1
+disabled [child]: 1
+disabled [athlete]: 1
+disabled: 1
+directors: 1
+directly interested: 1
+direct [recipient]: 1
+diplomats: 1
+dignitaries: 1
+dictator: 1
+devoted [neighbor]: 1
+developers: 1
+developer: 1
+determined: 1
+detainees: 1
+designated [physiotherapist]: 1
+designated [driver]: 1
+design [engineers]: 1
+described: 1
+dermatologist: 1
+deputy: 1
+depleted: 1
+democrats: 1
+delegates: 1
+delegate: 1
+defenseless: 1
+defenders: 1
+defeated: 1
+dedicated [friend]: 1
+dedicated [assistant]: 1
+dedicated: 1
+debtors: 1
+dear [children]: 1
+deal: 1
+deaf [passer-by]: 1
+data [archivist]: 1
+danish [social democrats]: 1
+danish [drivers]: 1
+danish [driver]: 1
+danish [cyclist]: 1
+danish [colleague]: 1
+damn [killers]: 1
+cyclist: 1
+cyberspace [prodigy]: 1
+customer success [agent]: 1
+curious [pedestrian] standing: 1
+curious: 1
+curator: 1
+cunning: 1
+culprits: 1
+culprit: 1
+cuban-asian [professor]: 1
+criminal: 1
+creators: 1
+creative research-based [engineers]: 1
+creative [director]: 1
+crazy: 1
+crafty [gardener]: 1
+craftsperson: 1
+counterpart: 1
+costly [intermediaries]: 1
+corrupt [businessperson]: 1
+correct and hard-working [workers]: 1
+correct: 1
+coordinator's: 1
+coordinator: 1
+cool: 1
+controlling: 1
+contortionist: 1
+contestants: 1
+content [authors]: 1
+constituents: 1
+consignee: 1
+considerate: 1
+conservatives: 1
+conservative: 1
+confidently: 1
+concrete [vendor]: 1
+computer [programmer]: 1
+comptroller: 1
+composer: 1
+competitors: 1
+competitor: 1
+community [partner]'s: 1
+committe of [advisors]: 1
+commissary: 1
+columnist: 1
+colleague: 1
+collaborators: 1
+collaborator: 1
+cold: 1
+co-borrower: 1
+club [owner]: 1
+close relative: 1
+close attention: 1
+close [friend]: 1
+clients: 1
+clever [swindler]: 1
+classmate: 1
+chronic [patient]: 1
+christian: 1
+choreographers: 1
+choir's [director]: 1
+chinese [workers]: 1
+chinese [poets]: 1
+chinese [astronauts]: 1
+chinese [ambassadors]: 1
+chilean [democrats]: 1
+chilean [baker]: 1
+child's: 1
+chess [whiz]: 1
+chess [players]: 1
+chemist: 1
+cheating [lover]: 1
+chauffeur: 1
+charming gym [instructor]: 1
+chaperone: 1
+champion: 1
+certificated [students]: 1
+certain small [producers]: 1
+certain [users]: 1
+certain [officials]: 1
+certain [neighbor]: 1
+cautious [investor]: 1
+catholic [students]: 1
+catalan [cousin]: 1
+castilian [delegates]: 1
+cash register [operators]: 1
+carpenter: 1
+caregivers: 1
+captivating new [actor]: 1
+campaign [pollster]: 1
+calmer: 1
+calm: 1
+butlers: 1
+busy: 1
+burned: 1
+buddhist [monk]: 1
+british [socialist]: 1
+british [ministers]: 1
+bring: 1
+breeders: 1
+brat: 1
+brand [owners]: 1
+braggart: 1
+bound: 1
+both [victims]: 1
+both [commissioners]: 1
+both [candidates]: 1
+botanist: 1
+border [residents]: 1
+bona fide spiritual [master]: 1
+bolivian: 1
+blond: 1
+blocked: 1
+blessed: 1
+bit perplexed: 1
+bishop: 1
+big [dealer]: 1
+bewildered [tourist]: 1
+bewildered: 1
+better [executor]: 1
+best irish [boxer]: 1
+best [vocalists]: 1
+best [tennis player]: 1
+best [tamer]: 1
+best [swimmer]: 1
+best [mechanic]: 1
+best [gynecologic oncologist]: 1
+beneficiary: 1
+beloved [partner]: 1
+beggars: 1
+beekeeper: 1
+basketball [player]: 1
+base [interpreter]: 1
+baroque [artist] honored: 1
+bad [mechanic]: 1
+baby-selling: 1
+baby: 1
+babies: 1
+awful: 1
+award-winning [worker]: 1
+award-winning [journalist]: 1
+average [person]: 1
+authorized [users]: 1
+authentic round-the-world [sailor]: 1
+australian [entrepeneur]: 1
+australian: 1
+auditors: 1
+athletes: 1
+athlete: 1
+atheist: 1
+at the [viewer]: 1
+asylum-seeker: 1
+astronomers: 1
+astronomer: 1
+astronauts: 1
+astonished: 1
+assured: 1
+assistant [teacher]: 1
+artists: 1
+artistically challenged: 1
+artistic [directors]: 1
+artist: 1
+artisan: 1
+arrogant [gypsy]: 1
+arriving [travelers]: 1
+arquitects: 1
+around ten [children]: 1
+armed [homeowner]: 1
+argentinian [colleague]: 1
+argentinian: 1
+argentine [friend]: 1
+architect: 1
+archer: 1
+archaeologist: 1
+approver: 1
+appointed [coordinator]: 1
+appalled: 1
+apostle: 1
+apartment [managers]: 1
+anything but honest: 1
+any [vegetarian]: 1
+any [user]: 1
+any [speakers]: 1
+any [official]: 1
+any [deputy]: 1
+anxious: 1
+another [boxer]: 1
+another: 1
+anesthesiologist: 1
+anaesthesiologist: 1
+american [soldier]: 1
+american [pilot]: 1
+ambitious: 1
+amazing [traveler]: 1
+amazing: 1
+amazed: 1
+always available: 1
+allies: 1
+alleged [witnesses]: 1
+all three [members]: 1
+all those [adventures]: 1
+all these ten [cadets]: 1
+all the non-catholic [students]: 1
+all the math and science [teachers]: 1
+all the [witnesses[: 1
+all the [videographers]: 1
+all the [protagonists]: 1
+all the [professors]: 1
+all the [players]: 1
+all the [neighbors]: 1
+all the [colleagues]: 1
+all the [collaborators]: 1
+all the [children]: 1
+all the [candidates]: 1
+all senior [managers]: 1
+all disheveled: 1
+all [students]: 1
+all [stakeholders]: 1
+all [kids]: 1
+all [entrepreneurs]: 1
+all [children]: 1
+all [athletes]: 1
+all [arbitrators]: 1
+algerians: 1
+agronomist: 1
+agriculture [coordinators]: 1
+advocates: 1
+advocate: 1
+advisor: 1
+adversary: 1
+adversaries: 1
+advanced [student]: 1
+adulterers: 1
+adored [teacher]: 1
+adored [neighbor]: 1
+adored [friend]: 1
+adopted: 1
+admitted: 1
+administrators: 1
+admin: 1
+addicted: 1
+actress: 1
+acting [president]: 1
+acting [director]: 1
+accused: 1
+abducted: 1
+[young person]: 1
+[you and your children]: 1
+[writer] disheartened: 1
+[those] few: 1
+[they] all: 1
+[themselves] matched: 1
+[thai cook]: 1
+[tennis player]: 1
+[surgeon] general: 1
+[successful ones]: 1
+[speech pathologist]: 1
+[some people]: 1
+[solo artist]: 1
+[soldier] found dead: 1
+[skinny ones]: 1
+[sick person]: 1
+[sick people]: 1
+[senior managers]: 1
+[secretary] of defense: 1
+[secretary] general: 1
+[school scout]: 1
+[responsible person]: 1
+[radiation oncologist]: 1
+[procurator] general: 1
+[prime minister]: 1
+[polish native]: 1
+[police officer]: 1
+[person concerned]: 1
+[patrol officer]: 1
+[pastry chef]: 1
+[park ranger]: 1
+[painter] tormented: 1
+[other two]: 1
+[ordinary citizens]: 1
+[one] who: 1
+[old folks] sat down: 1
+[officials] authorised: 1
+[no one]: 1
+[new yorker] raised: 1
+[mentor] infatuated: 1
+[lucky one]: 1
+[leave them] alone: 1
+[interested party]: 1
+[intended recipients]: 1
+[I] regret: 1
+[him or herself]: 1
+[guilty parties]: 1
+[friend] of yours: 1
+[friend] of the cousin]: 1
+[friend] of ours: 1
+[friend] cheerful: 1
+[former commissioner]: 1
+[first lieutenant]: 1
+[first cousins]: 1
+[employer] sits: 1
+[elected members]: 1
+[editor] involved: 1
+[economists] specializing: 1
+[economist] assigned: 1
+[dry cleaner]: 1
+[drug dealer]: 1
+[driver] engaged: 1
+[doctor] accused: 1
+[displaced persons]: 1
+[disabled people]: 1
+[director] general: 1
+[desk person]: 1
+[defense attorney]: 1
+[cousin] married: 1
+[consul] general: 1
+[colleague] of mine: 1
+[citizen] of the world: 1
+[children] with disabilities: 1
+[child] placed: 1
+[child] abandoned: 1
+[catholic] friend of mine: 1
+[carpenter] friend of mine: 1
+[capitalist] smitten: 1
+[candidate] meetings: 1
+[candidate] elected: 1
+[brother's friends]: 1
+[blind person]: 1
+[birthday person]: 1
+[author] from rumania: 1
+[art teacher]: 1
+[architect] friend of mine: 1
+[all] of you: 1
+[actor] dressed: 1
+[activist] accused: 1
+[accountant] chosen: 1
+[a theologian]: 1
+[a doctor]: 1
+400 to 500 [members]: 1
+12-year-old [kid]: 1
+(they): 1
