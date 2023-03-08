@@ -66,6 +66,6 @@ This would produce (to stdout) precision, recall and F0.5 for the entire dataset
 
 --max_words and --min_words can also be added to restrict to only the portion of the dataset in that range of lengths (calculated by whitespace splitting the source sentence).
 Normally sentences outside the length range will not be included in calculations at all. However, if the --full_set_recall option is also added, those sentences will instead
-be treated as null ouputs, and therefore recall errors.
+be treated as null outputs, and therefore recall errors.
 
 GateEval.py supports only evaluation over single-AGME (i.e. two-variant) tuples.
