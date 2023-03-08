@@ -51,22 +51,23 @@ The above guidelines for key words were followed somewhat loosely and with a fai
 While they are useful guides for a human reader, they may therefore be difficult to make use of programmitcally.
 
 A few of the category labels were not annotated consistently or correctly.
-Of particular note, INDF (indefinite -- some speakers may find a masculine generic natural) was only annotated for Italian.
-GLNK (gender link -- two distinct groups would likely be treated as a single group for gender determination), was annotated only for French and not always accurately; 
-APPS (post-positive adjective construction) -- Placement of adjectives after nouns in romance languages is typical, so this doesn't actually capture special structures as in English. inconsistently annotated.
+Of particular note: 
+- INDF (indefinite -- some speakers may find a masculine generic natural) was only annotated for Italian.
+- GLNK (gender link -- two distinct groups would likely be treated as a single group for gender determination), was annotated only for French and not always accurately; 
+- APPS (post-positive adjective construction) -- Placement of adjectives after nouns in romance languages is typical, so this doesn't actually capture special structures as in English. inconsistently annotated.
 
 ## Evaluation with GateEval.py
 
-GateEval.py is provided to aid in evaluation using GATE. Typical use entails sentence-level comparison of a set of rewritten target translations with references
+GateEval.py is intended to aid in evaluation with GATE. Typical use entails sentence-level comparison of a set of rewritten target translations with references
 found in one of the two-variant tsv files in GATE. Only exact sentence matches are considered correct. Lines may be left blank to indicate a null output -- 
 these count as recall errors but not precision errors.
 
 Rewriter output should be placed into a utf-8 text file with one sentence per line and no header. 
 From the root directory of this enlistment it could be invoked on female-to-male rewriter output (rewriter_hyps_f2m.txt) as follows:
 
-py GateEval.py -reference_file_name data/ES/ES_2_variants.tsv --predicted_file_name rewriter_hyps_f2m.txt --gender masculine
+py GateEval.py --reference_file_name data/ES/ES_2_variants.tsv --predicted_file_name rewriter_hyps_f2m.txt --gender masculine
 
-This would produce precision, recall and F0.5 for the entire dataset, as well as for the subset of sentences associated with each category label.
+This would produce (to stdout) precision, recall and F0.5 for the entire dataset, as well as for the subset of sentences associated with each category label.
 
 --max_words and --min_words can also be added to restrict to only the portion of the dataset in that range of lengths (caluclated by whitespace splitting the source sentence).
 Normally sentences outside the length range will not be included in calculations at all. However, if the --full_set_recall option is also added, those sentences will instead
