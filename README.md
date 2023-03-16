@@ -62,10 +62,12 @@ From the root directory of this enlistment it could be invoked on female-to-male
 
 py GateEval.py --reference_file_name data/ES/ES_2_variants.tsv --predicted_file_name rewriter_hyps_f2m.txt --gender masculine
 
-This would produce (to stdout) precision, recall and F0.5 for the entire dataset, as well as for the subset of sentences associated with each category label.
+This would produce (to stdout) precision, recall and F0.5 for the entire dataset, as well as for the subset of sentences associated with each category label. Additionally total count, match count and mismatch count will be included in each row.
 
 --max_words and --min_words can also be added to restrict to only the portion of the dataset in that range of lengths (calculated by whitespace splitting the source sentence).
 Normally sentences outside the length range will not be included in calculations at all. However, if the --full_set_recall option is also added, those sentences will instead
 be treated as null outputs, and therefore recall errors.
+
+--format_tsv if added will change output (after header info) to be formatted with values only, separated by tabs. This allows for easier copy paste into tables or spreadsheets.
 
 GateEval.py supports only evaluation over single-AGME (i.e. two-variant) tuples.
