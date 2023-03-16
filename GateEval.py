@@ -1,5 +1,6 @@
 import csv
 import argparse
+import sys
 from enum import IntEnum
 
 # Script to compute precision and recall reference data of GATE Paper
@@ -10,10 +11,19 @@ from enum import IntEnum
 #   python .\GateEval.py --reference_file_name .\French_reviewed.txt --predicted_file_name .\French_translated.generated.feminine.txt --gender feminine --extract_column
 #   extract a column from reference data to --predicted_file_name
 
+
 class MatchResult(IntEnum):
     Match = 0
     Mismatch = 1
     Empty = 2
+
+category_order = ["PROF", "NAT", "REL", "FAM", "NHUM", "OTH",            # Semantic Type
+                  "SUBJ", "SCMP", "DOBJ", "IOBJ", "OPRP", "VOC",         # Grammatical Role
+                        "POSC", "OCMP", "DIFF",                          # (continued)
+                  "QUES", "FRAG", "IMPR",                                # Sentence Type
+                  "APRD", "AATR", "ANAN", "PPA", "APPS",                 # Adjective-Related
+                  "PERS", "RELA", "DEMO", "POSS", "DROP", "IPRO",        # Pronoun Subtype
+                  "PLUR", "INDF", "DFCL", "PSSV", "VPART", "GLNK" ]                       # Other
 
 # Parse reference file
 def parse_reference_doc(reference_file_name):
@@ -81,7 +91,7 @@ def compute_stats(match_array, filter=None, recall_denom=None):
 
     f0_5 = calc_f_beta(precision, recall, 0.5)
     
-    return precision, recall, f0_5, count
+    return precision, recall, f0_5, recall_denom, match_type_counts[MatchResult.Match], match_type_counts[MatchResult.Mismatch]
 
 def calc_f_beta(p, r, beta):
     b_2 = beta * beta
@@ -153,6 +163,12 @@ def intersect_filters(*filters):
         result.append(cur)
     return result
 
+def print_row_verbose(cat_name, count, matches, mismatches, precision, recall, f0_5):
+    print(f"{cat_name}\t{count:4} (Matches: {matches}, Mismatches: {mismatches})\t-- Precision: {precision:.2f}, Recall: {recall:.2f}, f0.5: {f0_5:.2f}")
+
+def print_row_tsv(cat_name, count, matches, mismatches, precision, recall, f0_5):
+    print(f"{cat_name}\t{count:4}\t{matches:4}\t{mismatches:4}\t{precision:.2f}\t{recall:.2f}\t{f0_5:.2f}")
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--reference_file_name", help="Path to the reference label file")
 parser.add_argument("--predicted_file_name", help="Path to the predicted file")
@@ -161,6 +177,7 @@ parser.add_argument("--extract_column", default=False, action=argparse.BooleanOp
 parser.add_argument("--max_words", type=int, help="Ignore sentences longer than the specified length")
 parser.add_argument("--min_words", type=int, help="Ignore sentences shorter than the specified length")
 parser.add_argument("--full_set_recall", type=bool, default=False, action=argparse.BooleanOptionalAction, help="Count sentences longer and shorter than limits in the denominator for recall")
+parser.add_argument("--format_tsv", type=bool, default=False, action=argparse.BooleanOptionalAction, help="Format output for easy pasting into a tsv")
 args = parser.parse_args()
 
 reference_file_name = args.reference_file_name
@@ -170,6 +187,9 @@ should_generate_predicted_file = args.extract_column
 max_words = args.max_words
 min_words = args.min_words
 full_set_recall = args.full_set_recall
+format_tsv = args.format_tsv
+
+print_func = print_row_tsv if format_tsv else print_row_verbose
 
 try:
     # parse reference data
@@ -187,23 +207,37 @@ try:
         match_array = get_match_array(predicted_data, reference_data, predicted_content_gender)
         length_filter = get_length_filter(reference_data, max_words, min_words)
 
+        print(f"args: {' '.join(sys.argv)}")
         print(f"reference_file: {reference_file_name}")
         print(f"predicted_file: {predicted_file_name}")
         print(f"Gender: {args.gender}")
+        print(f"min_words: {min_words}")
         print(f"max_words: {max_words}")
+        print(f"full_set_recall: {full_set_recall}")
+        print(f"format_tsv: {format_tsv}")
 
         # compute precision and recall
         recall_denom = len(match_array) if full_set_recall else None
-        precision, recall, f0_5, count = compute_stats(match_array, length_filter, recall_denom)
-        print(f"Overall {count:4} -- Precision: {precision:.3f}, Recall: {recall:.3f}, f0.5: {f0_5:.3f}")
+        precision, recall, f0_5, count, matches, mismatches = compute_stats(match_array, length_filter, recall_denom)
+        print_func("Overall", count, matches, mismatches, precision, recall, f0_5)
         
         cat_filters = get_category_filters(reference_data)
-        for (cat, filt) in cat_filters.items():
+        def process_category(cat, filt):
             recall_denom = sum(1 for x in filt if x) if full_set_recall else None
             filter = intersect_filters(filt, length_filter) if length_filter is not None else filt
 
-            cat_p, cat_r, cat_f, cat_count = compute_stats(match_array, filter, recall_denom)
-            print(f"{cat}\t{cat_count:4} -- Precision: {cat_p:.3f}, Recall: {cat_r:.3f}, f0.5: {cat_f:.3f}")
+            cat_p, cat_r, cat_f, cat_count, cat_matches, cat_mismatches = compute_stats(match_array, filter, recall_denom)
+            print_func(cat, cat_count, cat_matches, cat_mismatches, cat_p, cat_r, cat_f)
+
+        # first process categories that are in the ordering list so they appear in the right order
+        for cat in category_order:
+            if cat in cat_filters:
+                process_category(cat, cat_filters[cat])
+
+        # then add any stragglers that weren't in the ordering list
+        for (cat, filt) in cat_filters.items():
+            if cat not in category_order:
+                process_category(cat, filt)
 
 except Exception as e:
     print(f"An error occurred: {e}")
